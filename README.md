@@ -2,7 +2,7 @@
 The purpose of the tool is to extract a large number of tweets from the social network X that contain some keyword, and to find the disadvantages and advantages of that keyword for a predefined time period (criticisms and praises).
 
 ## Description
-This tool is designed to examine the reputation profile of a certain keyword through a large amount of tweets from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a country.
+This tool is designed to examine the reputation profile of a certain keyword by analyzing large amount of tweets from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a country.
 First, the algorithm  is designed to fetch, analyze, and store Twitter data related to a specific keyword within a specified date range. It retrieves tweets, filters them based on various parameters or queries like the number of favorites and exclusion terms, and uses sentiment analysis (using OpenAI GPT) to categorize emotions and attitudes towards the keyword. The analyzed data, along with detailed tweet information, is then saved into a CSV file for further use or analysis.
 Secondly, it utilize NLP clustering models in order to interpret texts related to criticisms and praisings.  It uses natural language processing to preprocess and cluster the text, then employs a GPT-based model to analyze the clustered text for deeper insights. The results, including the clusters and their analysis, are saved back into CSV files and a summary is written to a TXT file, facilitating an understanding of the prominent themes in the criticism and praising categories.
 
