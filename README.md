@@ -6,7 +6,7 @@ This tool is designed to examine the reputation profile of a certain keyword by 
 First, the algorithm is designed to fetch, analyze, and store Twitter data related to a specific keyword within a specified date range. It retrieves or search for specific tweets with the keyword within a date period, filters them based on various parameters or queries like the number of favorites and exclusion terms, and uses sentiment analysis (using OpenAI GPT) to categorize emotions and attitudes towards the keyword. The analyzed data, along with detailed tweet information, is then saved into a CSV file for further use or analysis.
 Secondly, it uses natural language processing to preprocess and cluster the criticisms and praisings summaries from the fetched dataframe, then employs a GPT-based model to analyze the clustered text for deeper insights. The results, including the clusters and their analysis, are saved into a CSV file and a summary is written to a TXT file, facilitating an understanding of the prominent themes in the criticism and praising categories.
 
-## The Script:
+## The Scripts:
 There are two separate scripts:
 twitter_x_ext.py for extracting the tweets by keyword and date range, as well as utilizing GPT for finding criticisms and praisings from the tweets. twitter_x_cluster.py for reducing the criticisms and praisings into a meaningful list of insights by clustering and profiling major problems, criticisms, praisings, and other insights for further improvements.
 
