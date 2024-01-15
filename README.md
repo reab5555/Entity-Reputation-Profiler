@@ -11,29 +11,27 @@ There are two separate scripts:
 twitter_x_ext.py for extracting the tweets by keyword within a date period, as well as utilizing GPT for finding criticisms and praisings from the tweets, and twitter_x_cluster.py for reducing the criticisms and praisings into a meaningful list of insights by clustering and profiling major problems, issues, advantages, and other insights for further improvements.
 
 ### Fetching: twitter_x_ext.py
-Data Collection Setup: The script initializes with API keys and URLs for Twitter and ChatGPT APIs, sets search parameters such as the keyword, date range, and filters for the tweets.  
-Fetching Tweets: For each day in the specified date range, the script makes requests to the Twitter API to fetch tweets that match the search criteria, including filters like minimum favorites and exclusion of certain terms.  
-Tweet Data Extraction and Cleaning: Extracts relevant information from each tweet (like user info, text, date, etc.) and cleans the text by removing URLs, hashtags, and newlines.  
-Sentiment Analysis: The cleaned tweets are then sent to the ChatGPT API, which performs sentiment analysis. The analysis includes determining attitudes (positive, negative, neutral) towards the keyword and extracting specific criticisms or praises mentioned in the tweets.  
-Parsing and Storing Results: The sentiment analysis results are parsed, combined with the original tweet data, and then saved into a CSV file. The script ensures that each tweet's information and its sentiment analysis are stored together.  
-Iterative Data Processing: The script processes data day-by-day, iterating through the entire date range specified. For each day, it repeats the steps of fetching data, analyzing sentiment, and storing the results.  
-Error Handling and Retries: The script includes mechanisms for handling errors and retries, particularly when making API requests. This ensures that temporary issues like timeouts or request failures don't halt the entire data collection process.  
-Execution: The main execution loop of the script runs these steps for each day in the date range, starting from the 'start_date' to the 'end_date', thus creating a comprehensive dataset of tweets related to the keyword with their corresponding sentiment analysis over the specified period.  
+1. Data Collection Setup: The script initializes with API keys and URLs for Twitter and ChatGPT APIs, sets search parameters such as the keyword, date range, and filters for the tweets.  
+2. Fetching Tweets: For each day in the specified date range, the script makes requests to the Twitter API to fetch tweets that match the search criteria, including filters like minimum favorites and exclusion of certain terms.  
+3. Tweet Data Extraction and Cleaning: Extracts relevant information from each tweet (like user info, text, date, etc.) and cleans the text by removing URLs, hashtags, and newlines.  
+4. Sentiment Analysis: The cleaned tweets are then sent to the ChatGPT API, which performs sentiment analysis. The analysis includes determining attitudes (positive, negative, neutral) towards the keyword and extracting specific criticisms or praises mentioned in the tweets.  
+5. Parsing and Storing Results: The sentiment analysis results are parsed, combined with the original tweet data, and then saved into a CSV file. The script ensures that each tweet's information and its sentiment analysis are stored together.  
+6. Iterative Data Processing: The script processes data day-by-day, iterating through the entire date range specified. For each day, it repeats the steps of fetching data, analyzing sentiment, and storing the results.  
+7. Error Handling and Retries: The script includes mechanisms for handling errors and retries, particularly when making API requests. This ensures that temporary issues like timeouts or request failures don't halt the entire data collection process.  
+8. Execution: The main execution loop of the script runs these steps for each day in the date range, starting from the 'start_date' to the 'end_date', thus creating a comprehensive dataset of tweets related to the keyword with their corresponding sentiment analysis over the specified period.  
 
 ### Clustering: twitter_x_cluster.py
-Setup and File Selection: It initializes the environment, downloads necessary NLTK resources, and uses a Tkinter file dialog for the user to select a CSV file.  
-Preprocessing Text Data: The script preprocesses text in the 'criticism' and 'praising' columns of the CSV file. It removes URLs, non-word characters, digits, and applies lemmatization to the words. It also excludes certain words based on stop words and filename variations.  
-Text Clustering: The preprocessed text data is then clustered using the KMeans algorithm. The script identifies the main nouns, adjectives, and verbs in each cluster, focusing on the most significant words as determined by TF-IDF (Term Frequency-Inverse Document Frequency) scores.  
-Storing Clustered Data: The script saves the clustering results, including key nouns and verbs/adjectives for each cluster, back into a new CSV file.
-Removing Dominant Cluster Names: The script identifies and removes dominant cluster names which appear in more than half of the data entries, to avoid skewed analysis.  
-GPT-Based Cluster Analysis: The script uses the GPT model to analyze each cluster, seeking to summarize the relationship of the clustered texts with a specified keyword.  
-Progress Tracking and Error Handling: The script uses a progress bar to track the cluster analysis process and includes error handling, particularly for the GPT API calls.  
-Results Integration and Cleanup: The analyzed cluster data is integrated back into the DataFrame. The script replaces empty cells with NaN, then
+1. Setup and File Selection: It initializes the environment, downloads necessary NLTK resources, and uses a Tkinter file dialog for the user to select a CSV file.  
+2. Preprocessing Text Data: The script preprocesses text in the 'criticism' and 'praising' columns of the CSV file. It removes URLs, non-word characters, digits, and applies lemmatization to the words. It also excludes certain words based on stop words and filename variations.  
+3. Text Clustering: The preprocessed text data is then clustered using the KMeans algorithm. The script identifies the main nouns, adjectives, and verbs in each cluster, focusing on the most significant words as determined by TF-IDF (Term Frequency-Inverse Document Frequency) scores.  
+4. Storing Clustered Data: The script saves the clustering results, including key nouns and verbs/adjectives for each cluster, back into a new CSV file.
+5. Removing Dominant Cluster Names: The script identifies and removes dominant cluster names which appear in more than half of the data entries, to avoid skewed analysis.  
+6. GPT-Based Cluster Analysis: The script uses the GPT model to analyze each cluster, seeking to summarize the relationship of the clustered texts with a specified keyword.
+7. Results Integration and Cleanup: The analyzed cluster data is integrated back into the DataFrame. The script replaces empty cells with NaN, then
 fills NaN values with empty strings. It also removes preprocessed columns which are no longer needed.  
-Exporting Final Results: The script exports the updated DataFrame, now including the cluster analysis results, back to a CSV file. It also generates a TXT file summarizing the clusters, listing each cluster name along with its frequency.  
-Parsing and Reformatting Data: The script parses the TXT file to extract cluster data, which includes the cluster name, explanation, count, and type (Criticism or Praising). This data is then used to create a new DataFrame.  
-Sorting and Saving Cluster Data: The DataFrame is sorted by the count of each cluster in descending order and saved as a final CSV file. This file represents a comprehensive summary of the cluster analysis, providing a clear and organized view of the most prominent themes in both criticism and praising categories within the original dataset.  
-Final Output: In summary, the script not only clusters the text data but also enriches it with detailed analysis, making it easier to understand key patterns and sentiments expressed in the text. The final output includes both CSV and TXT files, offering different formats for reviewing and utilizing the results of this comprehensive text analysis process.  
+8. Exporting Final Results: The script exports the updated DataFrame, now including the cluster analysis results, back to a CSV file. It also generates a TXT file summarizing the clusters, listing each cluster name along with its frequency.  
+9. Parsing and Reformatting Data: The script parses the TXT file to extract cluster data, which includes the cluster name, explanation, count, and type (Criticism or Praising). This data is then used to create a new DataFrame.  
+10. Final Output: In summary, the script not only clusters the text data but also enriches it with detailed analysis, making it easier to understand key patterns and sentiments expressed in the text. The final output includes both CSV and TXT files, offering different formats for reviewing and utilizing the results of this comprehensive text analysis process.  
 
 ## Requirements:
 
