@@ -9,7 +9,7 @@ Secondly, it utilize NLP clustering models in order to interpret texts related t
 ## The Script:
 There are two separate scripts, one (twitter_x_ext.py) for extracting the tweets by keyword and date range, as well as utilizing GPT for finding criticisms and praisings from the tweets, and the second (twitter_x_cluster.py) for reducing the criticisms and praisings to a meaningful list of insights by clustering and reporting major problems, criticisms, praisings, and other insights for further improvements.
 
-### The working steps of the algorithm
+### The working steps of the algorithm:
 #### Fetching: twitter_x_ext.py
 Fetching Tweets and their related Data + Getting Criticisms and Praisings:
 Data Collection Setup: The script initializes with API keys and URLs for Twitter and ChatGPT APIs, sets search parameters such as the keyword, date range, and filters for the tweets.
