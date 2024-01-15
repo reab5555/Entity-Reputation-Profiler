@@ -9,8 +9,7 @@ Secondly, it utilize NLP clustering models in order to interpret texts related t
 ## The Script:
 There are two separate scripts, one (twitter_x_ext.py) for extracting the tweets by keyword and date range, as well as utilizing GPT for finding criticisms and praisings from the tweets, and the second (twitter_x_cluster.py) for reducing the criticisms and praisings to a meaningful list of insights by clustering and reporting major problems, criticisms, praisings, and other insights for further improvements.
 
-### The working steps of the algorithm:
-#### Fetching: twitter_x_ext.py
+### Fetching: twitter_x_ext.py
 Fetching Tweets and their related Data + Getting Criticisms and Praisings:
 Data Collection Setup: The script initializes with API keys and URLs for Twitter and ChatGPT APIs, sets search parameters such as the keyword, date range, and filters for the tweets.
 Fetching Tweets: For each day in the specified date range, the script makes requests to the Twitter API to fetch tweets that match the search criteria, including filters like minimum favorites and exclusion of certain terms.
@@ -21,7 +20,7 @@ Iterative Data Processing: The script processes data day-by-day, iterating throu
 Error Handling and Retries: The script includes mechanisms for handling errors and retries, particularly when making API requests. This ensures that temporary issues like timeouts or request failures don't halt the entire data collection process.
 Execution: The main execution loop of the script runs these steps for each day in the date range, starting from the 'start_date' to the 'end_date', thus creating a comprehensive dataset of tweets related to the keyword with their corresponding sentiment analysis over the specified period.
 
-#### Clustering: twitter_x_cluster.py
+### Clustering: twitter_x_cluster.py
 This script performs text analysis and clustering on data from a CSV file, focusing on processing, clustering, and analyzing text in 'criticism' and 'praising' columns. The working steps are as follows:
 Setup and File Selection: It initializes the environment, downloads necessary NLTK resources, and uses a Tkinter file dialog for the user to select a CSV file.
 Preprocessing Text Data: The script preprocesses text in the 'criticism' and 'praising' columns of the CSV file. It removes URLs, non-word characters, digits, and applies lemmatization to the words. It also excludes certain words based on stop words and filename variations.
