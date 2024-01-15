@@ -8,10 +8,10 @@ Secondly, it uses natural language processing to preprocess and cluster the crit
 
 ## The Scripts
 There are two separate scripts:
-twitter_x_ext.py for extracting the tweets by keyword within a date period, as well as utilizing GPT for finding criticisms and praisings from the tweets, and twitter_x_cluster.py for reducing the criticisms and praisings into a meaningful list of insights by clustering and profiling major problems, criticisms, praisings, and other insights for further improvements.
+twitter_x_ext.py for extracting the tweets by keyword within a date period, as well as utilizing GPT for finding criticisms and praisings from the tweets, and twitter_x_cluster.py for reducing the criticisms and praisings into a meaningful list of insights by clustering and profiling major problems, issues, advantages, and other insights for further improvements.
 
 ### Fetching: twitter_x_ext.py
-Fetching Tweets and their related Data + Getting Criticisms and Praisings:
+Fetching Tweets and their related Data + getting criticisms and praisings:
 Data Collection Setup: The script initializes with API keys and URLs for Twitter and ChatGPT APIs, sets search parameters such as the keyword, date range, and filters for the tweets.
 Fetching Tweets: For each day in the specified date range, the script makes requests to the Twitter API to fetch tweets that match the search criteria, including filters like minimum favorites and exclusion of certain terms.
 Tweet Data Extraction and Cleaning: Extracts relevant information from each tweet (like user info, text, date, etc.) and cleans the text by removing URLs, hashtags, and newlines.
