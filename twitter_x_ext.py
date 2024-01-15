@@ -4,24 +4,7 @@ import requests
 import csv
 from datetime import datetime, timedelta
 import re
-
-
-# XRapid API Key:
-XRapidAPIKey = "XRapidAPIKey"
-
-# Define your headers and API details here
-twitter_api_url = "https://twitter-api45.p.rapidapi.com/search.php"
-chatgpt_api_url = "https://chatgpt-chatgpt3-5-chatgpt4.p.rapidapi.com/v1/chat/completions"
-
-twitter_headers = {
-    "X-RapidAPI-Key": XRapidAPIKey,
-    "X-RapidAPI-Host": "twitter-api45.p.rapidapi.com",
-}
-chatgpt_headers = {
-    "content-type": "application/json",
-    "X-RapidAPI-Key": XRapidAPIKey,
-    "X-RapidAPI-Host": "chatgpt-chatgpt3-5-chatgpt4.p.rapidapi.com"
-}
+from config import twitter_api_url, chatgpt_api_url, twitter_headers, chatgpt_headers
 
 
 # Set parameters directly in the code

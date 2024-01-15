@@ -12,7 +12,7 @@ import nltk
 import requests
 import time
 from tqdm import tqdm
-
+from config import chatgpt_api_url, chatgpt_headers
 
 # Ensure nltk resources are downloaded
 nltk.download('averaged_perceptron_tagger')
@@ -173,14 +173,6 @@ remove_dominant_cluster_names(df, cluster_columns)
 
 # Get the keyword from the 'keyword' column (assuming it's in the first row)
 keyword = df.loc[0, 'keyword']
-
-XRapidAPIKey = "XRapidAPIKey"
-chatgpt_api_url = "https://chatgpt-chatgpt3-5-chatgpt4.p.rapidapi.com/v1/chat/completions"
-chatgpt_headers = {
-    "content-type": "application/json",
-    "X-RapidAPI-Key": XRapidAPIKey,
-    "X-RapidAPI-Host": "chatgpt-chatgpt3-5-chatgpt4.p.rapidapi.com"
-}
 
 
 # Function to analyze clusters using GPT:
