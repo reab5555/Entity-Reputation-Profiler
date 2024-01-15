@@ -1,5 +1,5 @@
 # Entity Reputation Profiler
-The purpose of this tool is to extract a large number of tweets from the social network X that contain some keyword, and to create a profile of the advantages and disadvantages of that keyword for a predefined time period (criticisms and praises).
+The purpose of this tool is to extract a large number of tweets from the social network X that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period (criticisms and praises).
 
 ## Description
 The tool is designed to examine the reputation profile of a certain keyword by analyzing large amount of tweets from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a country.
