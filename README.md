@@ -28,6 +28,10 @@ twitter_x_ext.py for extracting the tweets by keyword within a date period, as w
 
 ## Examples:
 ### Product Analysis
+Let's demonstrate the work of the algorithm as a way of analyzing and creating a profile for a product like the iPhone 15 Pro Max. First, we will extract tweets from the social network containing the keyword iPhone 15 Pro Max. The API uses a query, which means the keyword should be written in this way: 'iPhone-15-Pro-Max'. After that, we will specify the time range from which we would like to retrieve the tweets, for example, a start date of 2023-09-01 and an end date of 2024-01-01. In addition we would like to retrieve tweets with a minimum of 10 Favorites (likes) to limit our search to more popular tweets. We'll also want to specify which word we  want to exclude or don't want to appear in the tweets, for example we don't want the word 'Lightroom' to appear so that tweets talking about photo editing won't be extracted as it is not relevant for profiling criticisms and praisings. In this example we extracted a relatively small number of tweets for iPhone-15-Pro-Max (about 4400 tweets for the specified date period). Let's check the data we have extracted so far. We will load them into a graph referring to some of the features:
+
+
+
 
 ### Political Analysis
 
