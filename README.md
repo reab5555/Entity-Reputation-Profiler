@@ -37,9 +37,10 @@ Let's demonstrate the work of the tool through analyzing and creating a profile 
 
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="800"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="700"/>
 </p>
 
+In this example, we can see the graph X-Axis with the dates, and the Y-Axis with the mean probability numbers of the Sentiments Negative, Neutral, and Positive (their sum is 1). the mean Sentiments across all dates are 0.16 for Negative, 0.4 for Neutral, and 0.43 for Positive - this indicate that the tweets for this date period are mostly positive toward iPhone 15 Pro Max for the dates between September 2023 to December 2023. now, the green spline line represent Positive sentiment, the red Negative, and the dark-grey Neutral sentiment. notice the release date vertical line in 22/09/2023. we can see a slight increase in positve sentiment in the release date, and a slight decline the day after, and a peak in 26/12/2023. notice that tweets that talk about products will mostly be positive, so we need to examine the slope and the increase and decrease of each line per date. overall, we see a stable positivity toward the iPhone 15 Pro Max acros this date period, and a slight decrease of negativity since the product release date with some increase in 02/12/2023 with a peak value at the 19/12/2023.
 
 ### Political Analysis
 
