@@ -2,6 +2,7 @@
 <p align="center">
   <img src="profiler_icon.png" alt="Alt text for image1" width="100"/>
 </p>
+
 # Entity Reputation Profiler
 The purpose of this project is to extract a large number of tweets from the social network X that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. this may be used for analyzing newley products, public figures, and organizations for marketing, PI, forensic, intelligence, or research purposes.
 
