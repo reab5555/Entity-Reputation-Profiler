@@ -63,7 +63,22 @@ This bar chart categorizes the tweets into clusters named by key terms, and it d
 This examplary output report is a detailed profile or summary of the clusters and their criticisms related to the iPhone 15 Pro Max, categorized by specific aspects or features, each followed by a count of mentions.
 
 ### Political Analysis
+We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel', tweets from all over the world in all languages for the date range from July to December 2023. Let's examine the following graph:
 
+<p align="center">
+  <img src="assets/israel_twitter_fetch - Graph Builder 2.png" alt="Alt text for image1" width="900"/>
+</p>
+
+The sentiments Negative, Neutral, and Positive are plotted over a period from June to December, with specific events marked on the timeline.   
+
+Key observations from the graph:   
+* The negative sentiment has the highest mean value (around 0.45) and also the highest IQR (0.75), indicating both a higher average presence and greater variability in negative sentiment over the period.    
+* Positive sentiment has the lowest mean (approximately 0.18) and a small IQR (0.1), suggesting that positive sentiments are less variable and consistently lower.    
+* Neutral sentiment has a mean of around 0.32 with an IQR of 0.4, showing moderate presence and variability.    
+* Notable peaks in negative sentiment correspond with marked events, particularly around the "Airstrikes on Gaza" and "Israeli Invasion of Gaza", suggesting these events elicited strong negative reactions.    
+* The "7th of October" marks a significant peak for negative sentiment from that point. The differences between the sentiments are significant, so there is a clear distinction between them. The positive decreases along with the neutral, while the negative increases and continues to increase as the invasion progresses.   
+* The "Prisoners Exchange" event shows a peak in positive sentiment and a decrease in negative sentiment, suggesting a favorable reaction to this event.    
+* The smoothed lines help to visualize the general sentiment trend over time, revealing the fluctuating public reaction to the events marked on the graph. The data suggests that the events had a significant impact on the sentiments expressed, with negative sentiment being more pronounced overall.    
 
 ## Requirements:
 * Make sure to create an account and set the X-Rapid API Key in config.py - https://rapidapi.com/hub.  
