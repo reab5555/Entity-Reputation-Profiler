@@ -31,6 +31,11 @@ twitter_x_ext.py for extracting the tweets by keyword within a date period, as w
 5. Parsing Data: The script exports the updated DataFrame, now including the cluster analysis results, back to a CSV file. It also generates a TXT file summarizing the clusters, listing each cluster name along with its frequency or count number. furthermore, it parses the TXT file to extract cluster data, which includes the cluster name, explanation, count, and type (Criticism or Praising). This data is then used to create a new DataFrame or a CSV file.  
 6. Final Output: In summary, the script not only clusters the text data but also enriches it with detailed analysis, making it easier to understand key patterns and sentiments expressed in the text. The final output includes both CSV and TXT files, offering different formats for reviewing and utilizing the results of this comprehensive text analysis process.
 
+## Requirements:
+* Make sure to create an account and register for an API key, and set it in config.py - https://rapidapi.com/hub.  
+* Make sure that all the latest required packages are installed from requirements.txt.
+* In twitter_x_ext.py: start and end dates (start_date_str, end_date_str), the search word (search_word), the word to exclude (not_containing_str), the minimum favorites for a tweet (min_faves), and the number of pages (num_pages) to be fetched must be set manually.
+
 ## Examples:
 ### Product Analysis
 Let's demonstrate the work of the tool through analyzing and creating a profile for a product like the iPhone 15 Pro Max. First, we will extract tweets containing the keyword iPhone 15 Pro Max. The API uses queries, which means the keyword should be written in this way: 'iPhone-15-Pro-Max'. After that, we will specify the time period from which we would like to retrieve the tweets, for example, a start date of 2023-09-01 and an end date of 2024-01-01. In addition we would like to retrieve tweets with a minimum of 10 Favorites (likes) to limit our search to more popular tweets. We also want to specify which word we want to exclude or don't want to appear in the tweets, for example we don't want the word 'Lightroom' to appear so that tweets talking about photo editing won't be extracted as it is not relevant for profiling criticisms and praisings - we want tweets that talk about the device itself. In this example we extracted a relatively small number of tweets for iPhone-15-Pro-Max (about 4400 tweets for the specified date period). Let's check the data we have extracted so far. We will load them into a graph referring to some of the features:
@@ -163,11 +168,6 @@ These graphs can provide insights into the public's emotional responses to Netan
 </p>
 
 The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line.
-
-## Requirements:
-* Make sure to create an account and set the X-Rapid API Key in config.py - https://rapidapi.com/hub.  
-* Make sure that all the latest required packages are installed from requirements.txt.
-* In twitter_x_ext.py: start and end dates (start_date_str, end_date_str), the search word (search_word), the word to exclude (not_containing_str), the minimum favorites for a tweet (min_faves), and the number of pages (num_pages) to be fetched must be set manually.
 
 ```bash
 git clone https://github.com/reab5555/Entity-Reputation-Profiler.git
