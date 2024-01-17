@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="profiler_icon.png" alt="Alt text for image1" width="100"/>
+  <img src="assets/profiler_icon.png" alt="Alt text for image1" width="100"/>
 </p>
 
 # Entity Reputation Profiler
@@ -37,7 +37,7 @@ Let's demonstrate the work of the tool through analyzing and creating a profile 
 
 
 <p align="center">
-  <img src="Assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="100"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="100"/>
 </p>
 
 
