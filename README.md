@@ -46,7 +46,7 @@ In this example, we can see the graph X-Axis with the dates, and the Y-Axis with
   <img src="assets/iphone-15-pro-max_twitter_fetch - Emotions.png" alt="Alt text for image1" width="900"/>
 </p>
 
-In this graph, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
+In this graph, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
 
 <p align="center">
   <img src="assets/iphone-15-pro-max_twitter_fetch - keys.png" alt="Alt text for image1" width="900"/>
@@ -79,6 +79,34 @@ Key observations from the graph:
 * The "7th of October" marks a significant peak for negative sentiment from that point. The differences between the sentiments are significant, so there is a clear distinction between them. The positive decreases along with the neutral, while the negative increases and continues to increase as the invasion progresses.   
 * The "Prisoners Exchange" event shows a peak in positive sentiment and a decrease in negative sentiment, suggesting a favorable reaction to this event.    
 * The smoothed lines help to visualize the general sentiment trend over time, revealing the fluctuating public reaction to the events marked on the graph. The data suggests that the events had a significant impact on the sentiments expressed, with negative sentiment being more pronounced overall.    
+
+<p align="center">
+  <img src="assets/israel_twitter_fetch - Anger vs Sympathy.png" alt="Alt text for image1" width="900"/>
+</p>
+
+This graph is a time series analysis displaying two emotional sentiments, anger and sympathy toward 'Israel'.    
+
+Key observations from the graph:    
+
+* The highest peak for anger coincides with the "Airstrikes on Gaza", suggesting a strong negative emotional response to this event.    
+* Sympathy also peaks at the "Airstrikes on Gaza", although it is significantly lower than anger, indicating that while there is a notable level of sympathy, the anger sentiment is more dominant.     
+* The "Israeli Invasion of Gaza" marks an increase in both anger and sympathy, with anger being the higher of the two.    
+* The "Prisoners Exchange" shows an increase in sympathy sentiment, while anger appears to decrease, suggesting a positive public response to this event.    
+Overall, the graph depicts the fluctuating levels of anger and sympathy in response to the marked events, with anger generally showing higher intensity than sympathy throughout the observed period.
+
+<p align="center">
+  <img src="assets/israel_twitter_fetch - Shame vs Pride.png" alt="Alt text for image1" width="900"/>
+</p>
+
+The graph is a time series plot of two emotional sentiments, shame and pride, against a timeline that includes key events.    
+
+Observations from the graph:    
+
+* Peaks in the sentiment of shame toward 'Israel' are visible at several points, particularly spiking around the "Israeli Invasion of Gaza". This suggests that this event elicited a strong feeling of shame toward 'Israel' among the discourse captured in the data.   
+* The sentiment of pride shows less fluctuation and remains lower in comparison to shame, as indicated by its lower mean value.    
+* The "Airstrikes on Gaza" event shows a notable peak in shame with a corresponding increase in pride, but unmatched against shame.   
+
+
 
 ## Requirements:
 * Make sure to create an account and set the X-Rapid API Key in config.py - https://rapidapi.com/hub.  
