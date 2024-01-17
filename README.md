@@ -37,7 +37,7 @@ Let's demonstrate the work of the tool through analyzing and creating a profile 
 
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="500"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="800"/>
 </p>
 
 
