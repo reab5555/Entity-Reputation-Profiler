@@ -167,7 +167,7 @@ These graphs can provide insights into the public's emotional responses to Netan
   <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
 
-The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line.
+The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line. The concentration of the box plots in the area after October 7th depicts the average concentration of the cluster names in a much more dominant way during this period than before October 7th.
 
 ```bash
 git clone https://github.com/reab5555/Entity-Reputation-Profiler.git
