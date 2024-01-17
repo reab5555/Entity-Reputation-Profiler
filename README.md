@@ -1,5 +1,5 @@
 # Entity Reputation Profiler
-The purpose of this project is to extract a large number of tweets from the social network X that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. this is mainly made for analyzing newley products, public figures, and organizations for marketing, PI, forensic, intelligence, or research purposes.
+The purpose of this project is to extract a large number of tweets from the social network X that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. this may be used for analyzing newley products, public figures, and organizations for marketing, PI, forensic, intelligence, or research purposes.
 
 ## Description
 The tool is designed to create a reputation profile for a specific keyword by analyzing large amount of tweets that contain the keyword from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a name of a country.
