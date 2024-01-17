@@ -128,7 +128,7 @@ The graph is useful for understanding the relative scale of public engagement an
 
 The graphs provided display timelines with cluster names categorized under criticism, represented in two separate graphs, one for nouns and the other for adjectives and verbs in relation or toward 'Israel'. Each graph plots the occurrences of these words over a timeline, with specific dates marked along the bottom axis. The first image focuses on nouns such as "apartheid", "genocide", "terrorism", "occupation", and "refugee" for example. The occurrences of these words are indicated by the horizontal lines and the box plots suggest the duration of the discussion about these terms. The second image presents adjectives and verbs, including "killing", "illegal", "criticizing", and "propaganda" for example.   
 
-* Both graphs highlight the "7th of October" with a red vertical line, which signify a significant date in relation to the usage of these keywords.    
+Both graphs highlight the "7th of October" with a red vertical line, which signify a significant date in relation to the usage of these keywords.    
 
 These graphs could be used to analyze patterns of discourse, identify the prevalence of certain criticism topics over time, and observe how specific events might influence the language used in public discussions or social media. The distribution of terms across the dates could provide insights into the focus and intensity of criticism related to the events mentioned.
 
