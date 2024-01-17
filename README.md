@@ -138,12 +138,18 @@ Both graphs highlight the "7th of October" with a red vertical line, which signi
 These graphs could be used to analyze patterns of discourse, identify the prevalence of certain criticism topics over time, and observe how specific events might influence the language used in public discussions or social media. The distribution of terms across the dates could provide insights into the focus and intensity of criticism related to the events mentioned.
 
 <p align="center">
+  <img src="assets/israel_twitter_fetch_clustered - praising keywords - sympathy - nouns.png" alt="Alt text for image1" width="800"/>
+</p>
+
+In this bars plots we can see different nouns in relation to 'Israel', and the level of sympathy toward each cluster name. here we can see that the cluster name 'hostage' have the highest sympathy level, in other words, the tweets that contain the word 'hostage' in relation to 'Israel' have the highest level of sympathy.
+
+<p align="center">
   <img src="assets/israel_twitter_fetch - Positive by Language.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The horizontal bar chart represents the mean positivity score of tweets across various languages, denoted by their two-letter language codes. The bars and their color indicate the level of positive sentiment in content for each language. A longer bar signifies a higher positivity mean, while a shorter bar indicates a lower positivity mean. The color of the bars likely represents the intensity of positivity.   
 
-At the top of the chart, the "ko" language code, which typically stands for Korean, has the longest bar, suggesting that content in this language had the highest average positivity score among the languages represented.    
+At the top of the chart, the "ko" and "hu" language code, which typically stands for Korean and Hungarian, has the longest bar, suggesting that content in this language had the highest average positivity score among the languages represented.    
 
 This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
 
@@ -167,7 +173,9 @@ These graphs can provide insights into the public's emotional responses to Netan
   <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
 
-The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line. The concentration of the box plots in the area after October 7th depicts the average concentration of the cluster names in a much more dominant way during this period than before October 7th.
+The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat" (also positive attributes can be found). Both graphs highlight "7th of October" with a red vertical line. The concentration of the box plots in the area after October 7th depicts the average concentration of the cluster names in a much more dominant way during this period than before October 7th.
+
+
 
 ```bash
 git clone https://github.com/reab5555/Entity-Reputation-Profiler.git
