@@ -161,10 +161,10 @@ These are two graphs that plot sentiment analysis results over time related to s
 These graphs can provide insights into the public's emotional responses to Netanyahu's actions and related events. For instance, high peaks of negative sentiment and contempt may correlate with controversial events or statements, while peaks in positive sentiment or sympathy might align with events viewed favorably by the public. Peaks in surprise could indicate unexpected events or statements that caught the public's attention. notice the significant increase in contempt toward 'נתניהו' just few days after the Israeli Invasion of Gaza, and the slight increase in sympathy and with a decrease in contempt after the prisoners exchange.
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - nouns" alt="Alt text for image1" width="800"/>
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - nouns.png" alt="Alt text for image1" width="800"/>
 </p>
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line.
