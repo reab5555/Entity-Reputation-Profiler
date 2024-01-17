@@ -42,19 +42,19 @@ Let's demonstrate the work of the tool through analyzing and creating a profile 
 
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="800"/>
 </p>
 
 In this example, we can see the graph X-Axis with the dates, and the Y-Axis with the mean probability numbers of the Sentiments Negative, Neutral, and Positive (their sum is 1). the mean Sentiments across all dates are 0.16 for Negative, 0.4 for Neutral, and 0.43 for Positive - this indicate that the tweets for this date period are mostly positive toward iPhone 15 Pro Max for the dates between September 2023 to December 2023. now, the green spline line represent Positive sentiment, the red Negative, and the dark-grey Neutral sentiment. notice the release date vertical line in 22/09/2023. we can see a slight increase in positve sentiment in the release date, and a slight decline the day after, and a peak in 26/12/2023. notice that tweets that talk about products will mostly be positive, so we need to examine the slope and the increase and decrease of each line per date. Overall, we see a stable positivity toward the iPhone 15 Pro Max acros this date period, and a slight decrease of negativity since the product release date with some increase in 02/12/2023 with a peak value at the 19/12/2023. In order to understand why there is a sharp decrease or increase, it is recommended to use search engines to understand what event occurred on these dates.
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - Emotions.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - Emotions.png" alt="Alt text for image1" width="800"/>
 </p>
 
 In this graph, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - keys.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/iphone-15-pro-max_twitter_fetch - keys.png" alt="Alt text for image1" width="800"/>
 </p>
 
 This bar chart categorizes the tweets into clusters named by key terms, and it distinguishes between two types of sentiments: praise (in green) and criticism (in red), and combinations of both (brown). The horizontal axis represents the count of mentions for each cluster (how many tweets contain the cluster name). The "Great" cluster has the highest count with 442 mentions, which falls under the praising category. The "Camera" cluster is also frequently mentioned feature with 148 counts, also associated with praising sentiment, indicating that the camera is a well-regarded aspect. On the criticism side, the "Issue" cluster has the highest count with 89 mentions, suggesting that there are some concerns or problems frequently discussed. Clusters like "Overheating," "Color," and "Battery" are associated with criticism. 
@@ -71,7 +71,7 @@ This examplary output report is a detailed profile or summary of the clusters an
 We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel', tweets from all over the world in all languages for the date range from July to December 2023. Let's examine the following graph:
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch - Graph Builder 2.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch - Graph Builder 2.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The sentiments Negative, Neutral, and Positive are plotted over a period from June to December, with specific events marked on the timeline.   
@@ -86,7 +86,7 @@ Key observations from the graph:
 * The smoothed lines help to visualize the general sentiment trend over time, revealing the fluctuating public reaction to the events marked on the graph. The data suggests that the events had a significant impact on the sentiments expressed, with negative sentiment being more pronounced overall.    
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch - Anger vs Sympathy.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch - Anger vs Sympathy.png" alt="Alt text for image1" width="800"/>
 </p>
 
 This graph is a time series analysis displaying two emotional sentiments, anger and sympathy toward 'Israel'.    
@@ -100,7 +100,7 @@ Key observations from the graph:
 Overall, the graph depicts the fluctuating levels of anger and sympathy in response to the marked events, with anger generally showing higher intensity than sympathy throughout the observed period.
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch - Shame vs Pride.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch - Shame vs Pride.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The graph is a time series plot of two emotional sentiments, shame and pride, against a timeline that includes key events.    
@@ -112,7 +112,7 @@ Observations from the graph:
 * The "Airstrikes on Gaza" event shows a notable peak in shame with a corresponding increase in pride, but unmatched against shame.   
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch - Retweets.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch - Retweets.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The graph displays a time series of retweet counts, presumably from Twitter, over a period with specific events marked along the timeline. The blue line represents the number of retweets over time, with spikes indicating increased activity.    
@@ -125,10 +125,10 @@ Overall, retweet activity fluctuates, with the most pronounced peaks correspondi
 The graph is useful for understanding the relative scale of public engagement and the spread of information on social media in relation to specific events.
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - by date - nouns.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - by date - nouns.png" alt="Alt text for image1" width="800"/>
 </p>
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - negative - adjectives_verbs.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - negative - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The graphs provided display timelines with cluster names categorized under criticism, represented in two separate graphs, one for nouns and the other for adjectives and verbs in relation or toward 'Israel'. Each graph plots the occurrences of these words over a timeline, with specific dates marked along the bottom axis. The first image focuses on nouns such as "apartheid", "genocide", "terrorism", "occupation", and "refugee" for example. The occurrences of these words are indicated by the horizontal lines and the box plots suggest the duration of the discussion about these terms. The second image presents adjectives and verbs, including "killing", "illegal", "criticizing", and "propaganda" for example.   
@@ -138,7 +138,7 @@ Both graphs highlight the "7th of October" with a red vertical line, which signi
 These graphs could be used to analyze patterns of discourse, identify the prevalence of certain criticism topics over time, and observe how specific events might influence the language used in public discussions or social media. The distribution of terms across the dates could provide insights into the focus and intensity of criticism related to the events mentioned.
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch - Positive by Language.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch - Positive by Language.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The horizontal bar chart represents the mean positivity score of tweets across various languages, denoted by their two-letter language codes. The bars and their color indicate the level of positive sentiment in content for each language. A longer bar signifies a higher positivity mean, while a shorter bar indicates a lower positivity mean. The color of the bars likely represents the intensity of positivity.   
@@ -150,10 +150,10 @@ This chart can be useful for understanding which language-speaking communities a
 Now let's present an analysis of collected tweets containing the keyword 'נתניהו' in the Hebrew language. The collected tweets were all written in Hebrew, and they were collected from the beginning of September 2023 until the end of December 2023. The total number of tweets is approximately 27,800.
 
 <p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - negative vs neutral vs positive.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - negative vs neutral vs positive.png" alt="Alt text for image1" width="800"/>
 </p>
 <p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - Contempt vs Sympathy vs Surprise.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - Contempt vs Sympathy vs Surprise.png" alt="Alt text for image1" width="800"/>
 </p>
 
 These are two graphs that plot sentiment analysis results over time related to specific events, drawn from Twitter data that mentions or is associated with 'נתניהו'. The first graph shows the sentiments of sympathy, contempt, and surprise, with sympathy shown in pink, contempt in purple, and surprise in yellow. The second graph plots negative, neutral, and positive sentiments over the same timeframe. The sentiments are represented in red, black, and green respectively.    
@@ -161,10 +161,10 @@ These are two graphs that plot sentiment analysis results over time related to s
 These graphs can provide insights into the public's emotional responses to Netanyahu's actions and related events. For instance, high peaks of negative sentiment and contempt may correlate with controversial events or statements, while peaks in positive sentiment or sympathy might align with events viewed favorably by the public. Peaks in surprise could indicate unexpected events or statements that caught the public's attention. notice the significant increase in contempt toward 'נתניהו' just few days after the Israeli Invasion of Gaza, and the slight increase in sympathy and with a decrease in contempt after the prisoners exchange.
 
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - nouns" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - nouns" alt="Alt text for image1" width="800"/>
 </p>
 <p align="center">
-  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="850"/>
+  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
 
 The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line.
