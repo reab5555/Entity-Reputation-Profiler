@@ -68,7 +68,7 @@ This bar chart categorizes the tweets into clusters named by key terms, and it d
 This examplary output report is a detailed profile or summary of the clusters and their criticisms related to the iPhone 15 Pro Max, categorized by specific aspects or features, each followed by a count of mentions.
 
 ### Political Analysis
-We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel', tweets from all over the world in all languages for the date range from July to December 2023. Let's examine the following graph:
+We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel' in all possible languages for the date range from July to December 2023. Let's examine the following graph:
 
 <p align="center">
   <img src="assets/israel_twitter_fetch - Graph Builder 2.png" alt="Alt text for image1" width="800"/>
