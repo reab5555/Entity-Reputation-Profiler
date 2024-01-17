@@ -4,7 +4,7 @@ The purpose of this project is to extract a large number of tweets from the soci
 ## Description
 The tool is designed to create a reputation profile for a specific keyword by analyzing large amount of tweets that contain the keyword from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a name of a country.
 First, the algorithm is designed to fetch, analyze, and store Twitter data related to a specific keyword within a specified date range. Using API calls, it retrieves or search for specific tweets that contain the keyword within a date period, filters them based on various parameters or queries like the number of favorites and exclusion terms, and uses sentiment analysis (using OpenAI GPT) to categorize emotions and attitudes towards the keyword. The analyzed data, along with detailed tweet information, is then saved into a dataframe for further use or analysis.
-Secondly, it uses natural language processing to preprocess and cluster the criticisms and praisings summaries from the fetched dataframe, then employs a GPT-based model to analyze the clustered text for deeper insights. The results, including the clusters and their analysis, are saved into a CSV file and a summary is written to a TXT file, facilitating an understanding of the prominent themes in the criticism and praising categories.
+Secondly, it uses natural language processing to preprocess and cluster the criticisms and praisings summaries from the fetched dataframe, then employs a GPT-based model to analyze the clustered text for deeper insights, facilitating an understanding of the prominent themes in the criticism and praising categories.
 
 ## The Scripts
 There are two separate scripts:
