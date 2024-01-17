@@ -106,7 +106,63 @@ Observations from the graph:
 * The sentiment of pride shows less fluctuation and remains lower in comparison to shame, as indicated by its lower mean value.    
 * The "Airstrikes on Gaza" event shows a notable peak in shame with a corresponding increase in pride, but unmatched against shame.   
 
+<p align="center">
+  <img src="assets/israel_twitter_fetch - Retweets.png" alt="Alt text for image1" width="900"/>
+</p>
 
+The graph displays a time series of retweet counts, presumably from Twitter, over a period with specific events marked along the timeline. The blue line represents the number of retweets over time, with spikes indicating increased activity.    
+
+Observations from the graph:    
+
+* There are noticeable spikes in retweet activity corresponding with the "Airstrikes on Gaza" and the "Israeli Invasion of Gaza" events. This suggests these events generated a significant amount of attention and were widely discussed or shared on the platform.    
+* The "Prisoners Exchange" event also aligns with a spike in retweet numbers, suggesting heightened public interest or approval, which prompted users to share the content more broadly.   
+Overall, retweet activity fluctuates, with the most pronounced peaks corresponding to events that are likely of high public interest or concern, as indicated by the higher volume of retweets.
+The graph is useful for understanding the relative scale of public engagement and the spread of information on social media in relation to specific events.
+
+<p align="center">
+  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - by date - nouns.png" alt="Alt text for image1" width="900"/>
+</p>
+<p align="center">
+  <img src="assets/israel_twitter_fetch_clustered - criticism keywords - negative - adjectives_verbs.png" alt="Alt text for image1" width="900"/>
+</p>
+
+The graphs provided display timelines with cluster names categorized under criticism, represented in two separate graphs, one for nouns and the other for adjectives and verbs in relation or toward 'Israel'. Each graph plots the occurrences of these words over a timeline, with specific dates marked along the bottom axis. The first image focuses on nouns such as "apartheid", "genocide", "terrorism", "occupation", and "refugee" for example. The occurrences of these words are indicated by the horizontal lines and the box plots suggest the duration of the discussion about these terms. The second image presents adjectives and verbs, including "killing", "illegal", "criticizing", and "propaganda" for example.   
+
+* Both graphs highlight the "7th of October" with a red vertical line, which signify a significant date in relation to the usage of these keywords.    
+
+These graphs could be used to analyze patterns of discourse, identify the prevalence of certain criticism topics over time, and observe how specific events might influence the language used in public discussions or social media. The distribution of terms across the dates could provide insights into the focus and intensity of criticism related to the events mentioned.
+
+<p align="center">
+  <img src="assets/israel_twitter_fetch - Positive by Language.png" alt="Alt text for image1" width="900"/>
+</p>
+
+The horizontal bar chart represents the mean positivity score of tweets across various languages, denoted by their two-letter language codes. The bars and their color indicate the level of positive sentiment in content for each language. A longer bar signifies a higher positivity mean, while a shorter bar indicates a lower positivity mean. The color of the bars likely represents the intensity of positivity.   
+
+At the top of the chart, the "ko" language code, which typically stands for Korean, has the longest bar, suggesting that content in this language had the highest average positivity score among the languages represented.    
+
+This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
+
+Now let's present an analysis of collected tweets containing the keyword 'נתניהו' in the Hebrew language. The collected tweets were all written in Hebrew, and they were collected from the beginning of September 2023 until the end of December 2023. The total number of tweets is approximately 27,800.
+
+<p align="center">
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - negative vs neutral vs positive.png" alt="Alt text for image1" width="900"/>
+</p>
+<p align="center">
+  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - Contempt vs Sympathy vs Surprise.png" alt="Alt text for image1" width="900"/>
+</p>
+
+These are two graphs that plot sentiment analysis results over time related to specific events, drawn from Twitter data that mentions or is associated with 'נתניהו'. The first graph shows the sentiments of sympathy, contempt, and surprise, with sympathy shown in pink, contempt in purple, and surprise in yellow. The second graph plots negative, neutral, and positive sentiments over the same timeframe. The sentiments are represented in red, black, and green respectively.    
+
+These graphs can provide insights into the public's emotional responses to Netanyahu's actions and related events. For instance, high peaks of negative sentiment and contempt may correlate with controversial events or statements, while peaks in positive sentiment or sympathy might align with events viewed favorably by the public. Peaks in surprise could indicate unexpected events or statements that caught the public's attention. notice the significant increase in contempt toward 'נתניהו' just few days after the Israeli Invasion of Gaza, and the slight increase in sympathy and with a decrease in contempt after the prisoners exchange.
+
+<p align="center">
+  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - nouns" alt="Alt text for image1" width="900"/>
+</p>
+<p align="center">
+  <img src="assets/israel_twitter_fetch_clustered - praising keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="900"/>
+</p>
+
+The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat". Both graphs highlight "7th of October" with a red vertical line.
 
 ## Requirements:
 * Make sure to create an account and set the X-Rapid API Key in config.py - https://rapidapi.com/hub.  
