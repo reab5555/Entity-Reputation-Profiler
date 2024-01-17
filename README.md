@@ -60,8 +60,18 @@ This bar chart categorizes the tweets into clusters named by key terms, and it d
 </p>
 
 
-for a detailed profile and explanations for each cluster 
+This report is an output profile or summary of criticisms for example related to the iPhone 15 Pro Max, categorized by specific aspects or features, each followed by a count of mentions. It lists the various issues and compares the iPhone 15 Pro Max.  
 
+Key points of criticism include:  
+Overheating: with 89 mentions, it encompasses hardware issues, durability issues, and problems during use like screen burn-in and heating during calls or gaming.  
+Comparison to Galaxy S23 Ultra: with 80 mentions, it suggests the iPhone 15 Pro Max is considered inferior in many categories, with doubts about its camera quality compared to the Galaxy S23 Ultra.  
+Ultra Series: with 55 mentions, it discusses the lack of differentiation between the Pro Max and Ultra models and disappointment with the iPhone 15 series in this regard.  
+General performance: with 54 mentions, some positive feedback on specifications and overall performance is noted, but it is outweighed by criticism, especially regarding battery life and unfavorable comparisons with other phones.  
+Screen issues: with 48 mentions, includes severe glare and screen burn-in issues.  
+Overheating specificities: with 41 mentions, details significant issues with temperature warnings, with specific references to Canadian/European variants and problems while charging or using 5G.  
+Battery problems: with 29 mentions, points to significant battery errors, rapid draining, and poor life compared to competitors.  
+Price concerns: with 19 mentions, marks the iPhone 15 Pro Max as particularly expensive and not well-received price-wise, especially in markets like India.  
+User experience: with 2 mentions, indicates that users of the iPhone 13 Pro have similar experiences to those of the iPhone 15 Pro Max, suggesting a lack of substantial improvements or shared issues.  
 
 ### Political Analysis
 
