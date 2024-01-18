@@ -45,7 +45,7 @@ In addition, we tested correlations between the feelings or sentiments and dimen
 * In twitter_x_ext.py: start and end dates (start_date_str, end_date_str), the search word (search_word), the word to exclude (not_containing_str), the minimum favorites for a tweet (min_faves), and the number of pages (num_pages) to be fetched must be set manually.
 
 ## Examples:
-### Product Analysis - Example 1
+### Example 1: iPhone 15 Pro Max
 Let's demonstrate the work of the tool through analyzing and creating a profile for a product like the iPhone 15 Pro Max. First, we will extract tweets containing the keyword iPhone 15 Pro Max. The API uses queries, which means the keyword should be written in this way: 'iPhone-15-Pro-Max'. After that, we will specify the time period from which we would like to retrieve the tweets, for example, a start date of 2023-09-01 and an end date of 2024-01-01. In addition we would like to retrieve tweets with a minimum of 10 Favorites (likes) to limit our search to more popular tweets. We also want to specify which word we want to exclude or don't want to appear in the tweets, for example we don't want the word 'Lightroom' to appear so that tweets talking about photo editing won't be extracted as it is not relevant for profiling criticisms and praisings - we want tweets that talk about the device itself. In this example we extracted a relatively small number of tweets for iPhone-15-Pro-Max (about 4400 tweets for the specified date period). Let's check the data we have extracted so far. We will load them into a graph referring to some of the features:
 
 <p align="center">
@@ -74,7 +74,7 @@ This bar chart categorizes the tweets into clusters named by key terms, and it d
 
 This examplary output report is a detailed profile or summary of the clusters and their criticisms related to the iPhone 15 Pro Max, categorized by specific aspects or features, each followed by a count of mentions.
 
-### Example 2
+### Example 2: Israel
 We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel' in all possible languages for the date range from July to December 2023. Let's examine the following graph:
 
 <p align="center">
@@ -161,7 +161,7 @@ At the top of the chart, the "ko" and "hu" language code, which typically stands
 This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
 
 
-### Example 3
+### Example 3: Netanyahu
 Now let's present an analysis of collected tweets containing the keyword 'נתניהו' in the Hebrew language. The collected tweets were all written in Hebrew, and they were collected from the beginning of September 2023 until the end of December 2023. The total number of tweets is approximately 27,800.
 
 <p align="center">
