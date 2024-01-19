@@ -28,6 +28,7 @@ A tool that extracts major advantages and disadvantages of a product for example
 ### Disadvantages
 * Quality and Reliability of Information: Tweets can sometimes be misleading, incorrect, or based on incomplete information.
 * Potential for Bias and Manipulation: Tweets can be subject to bias or manipulation, such as paid endorsements, targeted campaigns against a product, or tweets written by bots. This can distort the real picture of a product's strengths and weaknesses.
+* Groupthink: Twitter can sometimes foster echo chambers, where only similar opinions are shared and amplified, leading to a biased view of a product’s reception.
 
 ## The Scripts
 There are two separate scripts:
