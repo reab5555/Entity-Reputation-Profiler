@@ -40,7 +40,7 @@ In addition, we tested correlations between the feelings or sentiments and dimen
 6. Final Output: In summary, the script not only clusters the text data but also enriches it with detailed analysis, making it easier to understand key patterns and sentiments expressed in the text. The final output includes both CSV and TXT files, offering different formats for reviewing and utilizing the results of this comprehensive text analysis process.
 
 <p align="center">
-  <img src="assets/workflow.png" alt="Alt text for image1" width="800"/>
+  <img src="assets/workflow.png" alt="Alt text for image1" width="600"/>
 </p>
 
 ## Requirements:
