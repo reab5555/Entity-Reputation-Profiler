@@ -12,9 +12,9 @@ First, the algorithm is designed to fetch, analyze, and store Twitter data relat
 Secondly, it uses natural language processing to preprocess and cluster the criticisms and praisings summaries from the fetched dataframe, then employs a GPT-based model to analyze the clustered text for deeper insights, facilitating an understanding of the prominent themes in the criticism and praising categories. Technically, the main innovation here is the use of large language models instead of previously common methods such as the Zero-Shot Classification. These models give us a level of accuracy that is unmatched by the 'old' models, as well as a natural language processing that understands small nuances in the texts, and identifies broad patterns and meanings.   
 
 ### Advantages
-It is worth to notice that if one directly ask ChatGPT or search the web about major problems about a newley released product for example the results cannot be validated, nor we know its sources.
-A tool that extracts major advantages and disadvantages of a product for example from tweets, as opposed to directly asking ChatGPT, offers several distinct benefits:   
+It is worth to notice that if one directly ask ChatGPT about major problems about a newley released product for example the results cannot be validated, nor we know it's output sources.   
 
+A tool that extracts major advantages and disadvantages of a product for example from tweets, as opposed to directly asking ChatGPT, offers several distinct benefits:   
 * Real-Time User Feedback: Tweets often reflect real-time user experiences and opinions. This immediacy captures the current public sentiment about a product, which can be more up-to-date than a pre-trained model like ChatGPT.   
 * Diversity of Opinions: Twitter hosts a wide range of users from different backgrounds, providing a diverse array of opinions. This diversity can offer a more comprehensive view of a product’s strengths and weaknesses compared to the potentially limited or generalized knowledge base of ChatGPT.   
 * Specific Use-Case Scenarios: Users often tweet about specific scenarios in which they used the product. This specificity can give insights into how the product performs under various conditions, something that ChatGPT might not detail unless it has been trained on similar specific data.   
