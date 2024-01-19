@@ -42,6 +42,9 @@ keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, ye
 <p align="center">
   <img src="assets/workflow.png" alt="Alt text for image1" width="600"/>
 </p>
+<p align="center">
+  <img src="assets/workflow2.png" alt="Alt text for image1" width="600"/>
+</p>
 
 ## Requirements:
 * Make sure to create an account and register for an API key, and set it in config.py - https://rapidapi.com/hub.  
