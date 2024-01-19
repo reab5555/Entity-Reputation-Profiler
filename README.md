@@ -15,6 +15,14 @@ Secondly, it uses natural language processing to preprocess and cluster the crit
 There are two separate scripts:
 twitter_x_ext.py for extracting the tweets by keyword within a date period, as well as utilizing GPT for finding criticisms and praisings from the tweets, and twitter_x_cluster.py for reducing the criticisms and praisings into a meaningful list of insights by clustering and profiling major problems, issues, advantages, and other useful information for further improvements. The reason for splitting the scripts is because we want one to be independent of the other. For example, it takes a long time to export a large amount of tweets, and we don't want that if there is a certain problem or error, the proccess will be interrupted. Therefore, using the second script only when we have a Dataframe file ready with all the data of the tweets only then we will want to run the second script to cluster the complete set of data.
 
+
+<p align="center">
+  <img src="assets/workflow.png" alt="Alt text for image1" width="600"/>
+</p>
+<p align="center">
+  <img src="assets/workflow2.png" alt="Alt text for image1" width="600"/>
+</p>
+
 ### Dimensions or Features
 The following is a complete list of dimensions or features of the extracted data, fit into the output dataframe:    
 keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, year, month, day, day_of_week, time, date, lang, views, quotes, replies, retweets, followers_count, friends_count, favourites_count, verified, criticism, praising, negative, positive, neutral, anticipation, happiness, sadness, anger, fear, disgust, surprise, contempt, guilt, shame, curiosity, pride, sympathy.   
@@ -38,13 +46,6 @@ keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, ye
 4. GPT-Based Cluster Analysis: The script uses the GPT model to analyze each cluster, seeking to summarize the relationship of the clustered texts with a specified cluster name.  
 5. Parsing Data: The script exports the updated DataFrame, now including the cluster analysis results, back to a CSV file. It also generates a TXT file summarizing the clusters, listing each cluster name along with its frequency or count number. furthermore, it parses the TXT file to extract cluster data, which includes the cluster name, explanation, count, and type (Criticism or Praising). This data is then used to create a new DataFrame or a CSV file.  
 6. Final Output: In summary, the script not only clusters the text data but also enriches it with detailed analysis, making it easier to understand key patterns and sentiments expressed in the text. The final output includes both CSV and TXT files, offering different formats for reviewing and utilizing the results of this comprehensive text analysis process.
-
-<p align="center">
-  <img src="assets/workflow.png" alt="Alt text for image1" width="600"/>
-</p>
-<p align="center">
-  <img src="assets/workflow2.png" alt="Alt text for image1" width="600"/>
-</p>
 
 ## Requirements:
 * Make sure to create an account and register for an API key, and set it in config.py - https://rapidapi.com/hub.  
