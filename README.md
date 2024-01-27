@@ -105,8 +105,8 @@ This examplary output report is a detailed profile or summary of the clusters an
   <img src="assets/iphone-15-pro-max_twitter_fetch_clustered - problems_by_date.png" alt="Alt text for image1" width="850"/>
 </p>
 
-The graph provided above is a timeline analysis of criticism related to the iPhone 15, mapped against specific dates.   
-Axis Description: The X-axis represents time with dates formatted as MM/DD/YYYY. The Y-axis lists different categories of criticism clusters with exemplary summaries of issues associated with the iPhone 15, which are grouped into clusters of similar complaints or experiences. Each box on the Y-axis seems to correspond to a distinct criticism topic, with related subtopics or specific issues mentioned below the main category title.   
+The graph provided above is a timeline analysis of criticism related to the iPhone 15 Pro Max, mapped against specific dates.   
+Axis Description: The X-axis represents time with dates formatted as MM/DD/YYYY. The Y-axis lists different categories of criticism clusters with exemplary summaries of issues associated with the iPhone 15 Pro Max, which are grouped into clusters of similar complaints or experiences. Each box on the Y-axis seems to correspond to a distinct criticism topic, with related subtopics or specific issues mentioned below the main category title.   
      
 Data Representation: The timeline uses a box plot-like representation to show the concentration and spread of criticisms over time. Each box extends from the earliest to the latest date where criticisms were observed, with the line inside the box likely representing the median date. The "whiskers" extend to the dates with the least frequency of criticisms, while outliers are represented by individual dots beyond the whiskers.    
      
