@@ -115,7 +115,9 @@ Data Representation: The timeline uses a box plot-like representation to show th
 * Post-Release Criticism: There is a noticeable concentration of criticisms shortly after the release, possibly indicating that early adopters faced immediate issues with their devices.    
 * Spread and Duration: The "Battery" cluster has the widest spread, indicating that these issues were reported over a longer time frame than others. In contrast, the "Galaxy" cluster is more concentrated, suggesting a shorter period of intense comparison with the Samsung Galaxy S23 Ultra.    
 * Resolution of Issues: If the boxes represent a timeline of complaints, the absence of extended whiskers or outliers past certain dates might suggest that the issues were resolved or that complaints subsided over time.   
-    
+       
+       
+       
 ### Example 2: 'Israel'
 We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel' in all possible languages for the date range from July to December 2023. Let's examine the following graph:
 
@@ -202,7 +204,9 @@ At the top of the chart, the "ko" and "hu" language code, which typically stands
 
 This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
 
-
+       
+       
+       
 ### Example 3: 'נתניהו'
 Now let's present an analysis of collected tweets containing the keyword 'נתניהו' in the Hebrew language. The collected tweets were all written in Hebrew, and they were collected from the beginning of September until the end of December 2023. The total number of tweets is approximately 27,800.
 
