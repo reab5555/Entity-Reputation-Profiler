@@ -76,23 +76,10 @@ keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, ye
 Let's demonstrate the work of the tool through analyzing and creating a profile for a product like the iPhone 15 Pro Max. First, we will extract tweets containing the keyword iPhone 15 Pro Max. The API uses queries, which means the keyword should be written in this way: 'iPhone-15-Pro-Max'. After that, we will specify the time period from which we would like to retrieve the tweets, for example, a start date of 2023-09-01 and an end date of 2024-01-01. In addition we would like to retrieve tweets with a minimum of 10 Favorites (likes) to limit our search to more popular tweets. We also want to specify which word we want to exclude or don't want to appear in the tweets, for example we don't want the word 'Lightroom' to appear so that tweets talking about photo editing won't be extracted as it is not relevant for profiling criticisms and praisings - we want tweets that talk about the device itself. In this example we extracted a relatively small number of tweets for iPhone-15-Pro-Max (about 4400 tweets for the specified date period). Let's check the data we have extracted so far. We will load them into a graph referring to some of the features:
 
 <p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - Negative vs Neutral vs Positive.png" alt="Alt text for image1" width="800"/>
-</p>
-
-In this example, we can see the graph X-Axis with the dates, and the Y-Axis with the mean probability numbers of the Sentiments Negative, Neutral, and Positive (their sum is 1). the mean Sentiments across all dates are 0.16 for Negative, 0.4 for Neutral, and 0.43 for Positive - this indicate that the tweets for this date period are mostly positive toward iPhone 15 Pro Max for the dates between September to December 2023. now, the green spline line represent Positive sentiment, the red Negative, and the dark-grey Neutral sentiment. notice the release date vertical line in 22/09/2023. we can see a slight increase in positve sentiment in the release date, and a slight decline the day after, and a peak in 26/12/2023. notice that tweets that talk about products will mostly be positive, so we need to examine the slope and the increase and decrease of each line per date. Overall, we see a stable positivity toward the iPhone 15 Pro Max acros this date period, and a slight decrease of negativity since the product release date with some increase in 02/12/2023 with a peak value at the 19/12/2023. In order to understand why there is a sharp decrease or increase, it is recommended to use search engines to understand what event occurred on these dates.
-
-<p align="center">
   <img src="assets/iphone-15-pro-max_twitter_fetch - Emotions.png" alt="Alt text for image1" width="800"/>
 </p>
 
-In this graph, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
-
-<p align="center">
-  <img src="assets/iphone-15-pro-max_twitter_fetch - keys.png" alt="Alt text for image1" width="800"/>
-</p>
-
-This bar chart categorizes the tweets into clusters named by key terms, and it distinguishes between two types of sentiments: praise (in green) and criticism (in red), and combinations of both (brown). The horizontal axis represents the count of mentions for each cluster (how many tweets contain the cluster name). The "Great" cluster has the highest count with 442 mentions, which falls under the praising category. The "Camera" cluster is also frequently mentioned feature with 148 counts, also associated with praising sentiment, indicating that the camera is a well-regarded aspect. On the criticism side, the "Issue" cluster has the highest count with 89 mentions, suggesting that there are some concerns or problems frequently discussed. Clusters like "Overheating," "Color," and "Battery" are associated with criticism. 
-
+In this example, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
 
 <p align="center">
   <img src="assets/Screenshot 2024-01-17 194152.png" alt="Alt text for image1" width="850"/>
@@ -135,20 +122,6 @@ Key observations from the graph:
 * The "7th of October" marks a significant peak for negative sentiment from that point. The differences between the sentiments are significant, so there is a clear distinction between them. The positive decreases along with the neutral, while the negative increases and continues to increase as the invasion progresses.   
 * The "Prisoners Exchange" event shows a peak in positive sentiment and a decrease in negative sentiment, suggesting a favorable reaction to this event.    
 * The smoothed lines help to visualize the general sentiment trend over time, revealing the fluctuating public reaction to the events marked on the graph. The data suggests that the events had a significant impact on the sentiments expressed, with negative sentiment being more pronounced overall.    
-
-<p align="center">
-  <img src="assets/israel_twitter_fetch - Anger vs Sympathy.png" alt="Alt text for image1" width="800"/>
-</p>
-
-This graph is a time series analysis displaying two emotional sentiments, anger and sympathy toward 'Israel'.    
-
-Key observations from the graph:    
-
-* The highest peak for anger coincides with the "Airstrikes on Gaza", suggesting a strong negative emotional response to this event.    
-* Sympathy also peaks at the "Airstrikes on Gaza", although it is significantly lower than anger, indicating that while there is a notable level of sympathy, the anger sentiment is more dominant.     
-* The "Israeli Invasion of Gaza" marks an increase in both anger and sympathy, with anger being the higher of the two.    
-* The "Prisoners Exchange" shows an increase in sympathy sentiment, while anger appears to decrease, suggesting a positive public response to this event.    
-Overall, the graph depicts the fluctuating levels of anger and sympathy in response to the marked events, with anger generally showing higher intensity than sympathy throughout the observed period.
 
 <p align="center">
   <img src="assets/israel_twitter_fetch - Shame vs Pride.png" alt="Alt text for image1" width="800"/>
