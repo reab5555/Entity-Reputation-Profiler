@@ -4,7 +4,7 @@
 </p>
 
 # Entity Reputation Profiler
-The purpose of this project is to extract from the social network X a large number of tweets that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. The results can be loaded into a visual graphical representation to gain important insights. this may be used for analyzing newley products, public figures, or names of organizations. made for product improvments, marketing, forensic, intelligence (OSINT), or research purposes.
+The purpose of this project is to extract from the social network X a large number of tweets that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. The results can be loaded into a visual graphical representation to gain important insights. this may be used for analyzing newley products, public figures, or names of organizations. made for product improvments, marketing, forensic, intelligence (OSINT and HUMINT), or research purposes.
 
 **** In order to receive the relevant scripts, please send a request to Reab5555@gmail.com ****
 
