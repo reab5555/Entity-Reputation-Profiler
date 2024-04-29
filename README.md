@@ -179,31 +179,6 @@ At the top of the chart, the "ko" and "hu" language code, which typically stands
 
 This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
 
-       
-       
-       
-### Example 3: 'נתניהו'
-Now let's present an analysis of collected tweets containing the keyword 'נתניהו' in the Hebrew language. The collected tweets were all written in Hebrew, and they were collected from the beginning of September until the end of December 2023. The total number of tweets is approximately 27,800.
-
-<p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - negative vs neutral vs positive.png" alt="Alt text for image1" width="800"/>
-</p>
-<p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - Contempt vs Sympathy vs Surprise.png" alt="Alt text for image1" width="800"/>
-</p>
-
-These are two graphs that plot sentiment analysis results over time related to specific events, drawn from Twitter data that mentions or is associated with 'נתניהו'. The first graph shows the sentiments of sympathy, contempt, and surprise, with sympathy shown in pink, contempt in purple, and surprise in yellow. The second graph plots negative, neutral, and positive sentiments over the same timeframe. The sentiments are represented in red, black, and green respectively.    
-
-These graphs can provide insights into the public's emotional responses to Netanyahu's actions and related events. For instance, high peaks of negative sentiment and contempt may correlate with controversial events or statements, while peaks in positive sentiment or sympathy might align with events viewed favorably by the public. Peaks in surprise could indicate unexpected events or statements that caught the public's attention. notice the significant increase in contempt toward 'נתניהו' just few days after the Israeli Invasion of Gaza, and the slight increase in sympathy and with a decrease in contempt after the prisoners exchange.
-
-<p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - nouns.png" alt="Alt text for image1" width="800"/>
-</p>
-<p align="center">
-  <img src="assets/netanyahu_twitter_data_with_sentiments_clustered - keywords - by date - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
-</p>
-
-The first image shows a range of adjectives and verbs such as "questionable", "failing", "corrupt", and "terrorist". The second image focuses on nouns such as "decision", "disaster", "corruption", and "threat" (also positive attributes can be found). Both graphs highlight "7th of October" with a red vertical line. The concentration of the box plots in the area after October 7th depicts the average concentration of the cluster names in a much more dominant way during this period than before October 7th.
 
 
 
