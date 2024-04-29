@@ -51,7 +51,6 @@ keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, ye
 * We tested correlations between the feelings or sentiments and dimensions such as the amount of views, the amount of likes, the amount of followers, the amount of shares, etc., but we received correlations that are not strong enough. For example, the highest correlation we received: negative sentiment has a significant correlation of r=0.100*** to the amount of reactions for tweets.
 
 ## Requirements:
-* Make sure to create an account and register for an API key, and set it in config.py - https://rapidapi.com/hub.  
 * Make sure that all the latest required packages are installed from requirements.txt.
 * In twitter_x_ext.py: start and end dates (start_date_str, end_date_str), the search word (search_word), the word to exclude (not_containing_str), the minimum favorites for a tweet (min_faves), and the number of pages (num_pages) to be fetched must be set manually.
 
