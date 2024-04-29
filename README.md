@@ -4,13 +4,13 @@
 </p>
 
 # Entity Reputation Profiler
-The purpose of this project is to extract from the social network X a large number of tweets that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. The results can be loaded into a visual graphical representation to gain important insights. this may be used for analyzing newley products, public figures, or names of organizations. made for product improvments, marketing, forensic, intelligence (OSINT and HUMINT), or research purposes.
-
-## Description
-The tool is designed to create a reputation profile for a specific keyword by fetching and analyzing large amount of tweets that contain the keyword from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a name of a country.
-First, the algorithm is designed to fetch, analyze, and store Twitter data related to a specific keyword within a specified date range. Using API calls, it retrieves or search for specific tweets that contain the keyword within a date period, filters them based on various parameters or queries like the number of favorites and exclusion terms, and uses sentiment analysis (using OpenAI GPT) to categorize emotions and attitudes towards the keyword. The analyzed data, along with detailed tweet information, is then saved into a dataframe for further use or analysis.
-Secondly, it uses natural language processing to preprocess and cluster the criticisms and praisings summaries from the fetched dataframe, then employs a GPT-based model to analyze the clustered text for deeper insights, facilitating an understanding of the prominent themes in the criticism and praising categories.
-
+This tool is designed to analyze the reputation and sentiment towards a specific entity (e.g., product, public figure, organization) by collecting and processing relevant tweets from the social network Twitter (X). The core functionality involves fetching tweets that mention the target entity within a specified date range, and then performing sentiment analysis on the remaining tweets.   
+   
+The sentiment analysis categorizes the tweets into positive (praises) and negative (criticisms) sentiments towards the target entity. Additionally, it identifies the emotions and attitudes expressed in the tweets.  
+The tool then employs natural language processing techniques to preprocess and cluster the summaries of criticisms and praises extracted from the analyzed data. These clustered text segments are further analyzed using a language model (GPT) to gain deeper insights into the prominent themes and patterns within the criticism and praising categories.   
+    
+The ultimate goal is to provide a comprehensive reputation profile for the target entity, highlighting the sentiments, emotions, criticisms, and praises expressed in the social media conversations. This information can be valuable for various purposes, such as product improvements, marketing strategies, reputation management, or research and intelligence gathering.   
+     
 ### Advantages
 Firstly, the utilization of large language models instead of the previously common methods such as the Zero-Shot Classification (BERT) give us a level of classification accuracy that is unmatched by the 'old' models, as well as a natural language processing that understands small nuances in the texts, and identifies broad patterns and meanings. Secondly, it is worth to notice that if one directly ask ChatGPT about major problems about a newley released product for example - the results cannot be validated, nor we know it's output sources.   
 
