@@ -6,8 +6,6 @@
 # Entity Reputation Profiler
 The purpose of this project is to extract from the social network X a large number of tweets that contain some keyword, and to create a profile of the criticsms and praisings, as well as emotions and sentiments toward that keyword for a predefined time period. The results can be loaded into a visual graphical representation to gain important insights. this may be used for analyzing newley products, public figures, or names of organizations. made for product improvments, marketing, forensic, intelligence (OSINT and HUMINT), or research purposes.
 
-**** In order to receive the relevant scripts, please send a request to Reab5555@gmail.com ****
-
 ## Description
 The tool is designed to create a reputation profile for a specific keyword by fetching and analyzing large amount of tweets that contain the keyword from the social network X. The keyword can be a certain product that has just been released, a public figure, an organization, or a name of a country.
 First, the algorithm is designed to fetch, analyze, and store Twitter data related to a specific keyword within a specified date range. Using API calls, it retrieves or search for specific tweets that contain the keyword within a date period, filters them based on various parameters or queries like the number of favorites and exclusion terms, and uses sentiment analysis (using OpenAI GPT) to categorize emotions and attitudes towards the keyword. The analyzed data, along with detailed tweet information, is then saved into a dataframe for further use or analysis.
