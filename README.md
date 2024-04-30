@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
   <img src="assets/profiler_icon.png" alt="Alt text for image1" width="150"/>
 </p>
 
