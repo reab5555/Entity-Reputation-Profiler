@@ -56,37 +56,27 @@ keyword, tweet_id, screen_name, name, text, bookmarks, favorites, created_at, ye
 
 ## Examples:
 ### Example 1: 'iPhone 15 Pro Max'
-Let's demonstrate the work of the tool through analyzing and creating a profile for a product like the iPhone 15 Pro Max. First, we will extract tweets containing the keyword iPhone 15 Pro Max. The API uses queries, which means the keyword should be written in this way: 'iPhone-15-Pro-Max'. After that, we will specify the time period from which we would like to retrieve the tweets, for example, a start date of 2023-09-01 and an end date of 2024-01-01. In addition we would like to retrieve tweets with a minimum of 10 Favorites (likes) to limit our search to more popular tweets. We also want to specify which word we want to exclude or don't want to appear in the tweets, for example we don't want the word 'Lightroom' to appear so that tweets talking about photo editing won't be extracted as it is not relevant for profiling criticisms and praisings - we want tweets that talk about the device itself. In this example we extracted a relatively small number of tweets for iPhone-15-Pro-Max (about 4400 tweets for the specified date period). Let's check the data we have extracted so far. We will load them into a graph referring to some of the features:
-
 <p align="center">
   <img src="assets/iphone-15-pro-max_twitter_fetch - Emotions.png" alt="Alt text for image1" width="800"/>
 </p>
 
-In this example, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.
+In this example, we see the plotting of four different emotions (anticipation, curiosity, anger, and happiness). emotions are rated from 0 to 100. A notable peak in 'anticipation' is observed around the date labeled as iPhone 15 Release Date, which coincides with what one would expect around a product launch. The 'happiness' line also shows a peak around this date, suggesting positive reception. In contrast, 'anger' shows relatively lower levels throughout, with some small peaks that do not coincide with the release date. 'Curiosity' exhibits peaks both before and after the release date, suggesting that interest spikes occurred at multiple points, possibly due to announcements or other related news events. Overall, the graph suggests that anticipation and happiness were the dominant emotions expressed in relation to the iPhone 15 Pro Max around its release, with anticipation being the strongest emotion on average. Curiosity had a moderate presence throughout, with peaks at various points, while anger was the least expressed emotion according to this analysis.   
 
 <p align="center">
   <img src="assets/Screenshot 2024-01-17 194152.png" alt="Alt text for image1" width="850"/>
 </p>
-
 
 This examplary output report is a detailed profile or summary of the clusters and their criticisms related to the iPhone 15 Pro Max, categorized by specific aspects or features, each followed by a count of mentions.
 
 <p align="center">
   <img src="assets/iphone-15-pro-max_twitter_fetch_clustered - problems_by_date.png" alt="Alt text for image1" width="850"/>
 </p>
-
-The graph provided above is a timeline analysis of criticism related to the iPhone 15 Pro Max, mapped against specific dates.   
-Axis Description: The X-axis represents time with dates formatted as MM/DD/YYYY. The Y-axis lists different categories of criticism clusters with exemplary summaries of issues associated with the iPhone 15 Pro Max, which are grouped into clusters of similar complaints or experiences. Each box on the Y-axis seems to correspond to a distinct criticism topic, with related subtopics or specific issues mentioned below the main category title.   
-     
-Data Representation: The timeline uses a box plot-like representation to show the concentration and spread of criticisms over time. Each box extends from the earliest to the latest date where criticisms were observed, with the line inside the box likely representing the median date. The "whiskers" extend to the dates with the least frequency of criticisms, while outliers are represented by individual dots beyond the whiskers.    
-     
+   
 #### Insights:    
 * Pre-Release Criticism: Some criticisms appear before the iPhone 15 release date, which could be related to leaks, rumors, or issues with previous models anticipated to persist in the new release.
 * Post-Release Criticism: There is a noticeable concentration of criticisms shortly after the release, possibly indicating that early adopters faced immediate issues with their devices.    
 * Spread and Duration: The "Battery" cluster has the widest spread, indicating that these issues were reported over a longer time frame than others. In contrast, the "Galaxy" cluster is more concentrated, suggesting a shorter period of intense comparison with the Samsung Galaxy S23 Ultra.    
 * Resolution of Issues: If the boxes represent a timeline of complaints, the absence of extended whiskers or outliers past certain dates might suggest that the issues were resolved or that complaints subsided over time.   
-       
-       
        
 ### Example 2: 'Israel'
 We would like to examine the attitude towards Israel before and after the events of October 7th 2023. We extracted about 50,000 tweets containing the word 'Israel' in all possible languages for the date range from July to December 2023. Let's examine the following graph:
@@ -109,47 +99,33 @@ Key observations from the graph:
 <p align="center">
   <img src="assets/israel_twitter_fetch - Shame vs Pride.png" alt="Alt text for image1" width="800"/>
 </p>
-
-The graph is a time series plot of two emotional sentiments, shame and pride, against a timeline that includes key events.    
-
-Observations from the graph:    
-
+   
 * Peaks in the sentiment of shame toward 'Israel' are visible at several points, particularly spiking around the "Israeli Invasion of Gaza". This suggests that this event elicited a strong feeling of shame toward 'Israel' among the discourse captured in the data.   
 * The sentiment of pride shows less fluctuation and remains lower in comparison to shame, as indicated by its lower mean value.    
 * The "Airstrikes on Gaza" event shows a notable peak in shame with a corresponding increase in pride, but unmatched against shame.   
-
+   
 <p align="center">
   <img src="assets/israel_twitter_fetch - Retweets.png" alt="Alt text for image1" width="800"/>
 </p>
-
-The graph displays a time series of retweet counts, presumably from Twitter, over a period with specific events marked along the timeline. The blue line represents the number of retweets over time, with spikes indicating increased activity.    
-
-Observations from the graph:    
-
+   
 * There are noticeable spikes in retweet activity corresponding with the "Airstrikes on Gaza" and the "Israeli Invasion of Gaza" events. This suggests these events generated a significant amount of attention and were widely discussed or shared on the platform.    
 * The "Prisoners Exchange" event also aligns with a spike in retweet numbers, suggesting heightened public interest or approval, which prompted users to share the content more broadly.   
 Overall, retweet activity fluctuates, with the most pronounced peaks corresponding to events that are likely of high public interest or concern, as indicated by the higher volume of retweets.
 The graph is useful for understanding the relative scale of public engagement and the spread of information on social media in relation to specific events.
-
+   
 <p align="center">
   <img src="assets/israel_twitter_fetch_clustered - criticism keywords - by date - nouns.png" alt="Alt text for image1" width="800"/>
 </p>
 <p align="center">
   <img src="assets/israel_twitter_fetch_clustered - criticism keywords - negative - adjectives_verbs.png" alt="Alt text for image1" width="800"/>
 </p>
-
-The graphs provided display timelines with cluster names categorized under criticism, represented in two separate graphs, one for nouns and the other for adjectives and verbs in relation or toward 'Israel'. Each graph plots the occurrences of these words over a timeline, with specific dates marked along the bottom axis. The first image focuses on nouns such as "apartheid", "genocide", "terrorism", "occupation", and "refugee" for example. The occurrences of these words are indicated by the horizontal lines and the box plots suggest the duration of the discussion about these terms. The second image presents adjectives and verbs, including "killing", "illegal", "criticizing", and "propaganda" for example. the black plots denote outliers.
-
-Both graphs highlight the "7th of October" with a red vertical line, which signify a significant date in relation to the usage of these keywords.    
-
-These graphs could be used to analyze patterns of discourse, identify the prevalence of certain criticism topics over time, and observe how specific events might influence the language used in public discussions or social media. The distribution of terms across the dates could provide insights into the focus and intensity of criticism related to the events mentioned.
-
+   
 <p align="center">
   <img src="assets/israel_twitter_fetch_clustered - praising keywords - sympathy - nouns.png" alt="Alt text for image1" width="800"/>
 </p>
-
+  
 In this bars plots we can see different nouns in relation to 'Israel', and the level of sympathy toward each cluster name. here we can see that the cluster name 'hostage' have the highest sympathy level, in other words, the tweets that contain the word 'hostage' in relation to 'Israel' have the highest level of sympathy.
-
+   
 <p align="center">
   <img src="assets/israel_twitter_fetch - Positive by Language.png" alt="Alt text for image1" width="800"/>
 </p>
@@ -159,8 +135,6 @@ The horizontal bar chart represents the mean positivity score of tweets across v
 At the top of the chart, the "ko" and "hu" language code, which typically stands for Korean and Hungarian, has the longest bar, suggesting that content in this language had the highest average positivity score among the languages represented.    
 
 This chart can be useful for understanding which language-speaking communities are expressing more positive sentiments in their content toward 'Israel', according to the data source analyzed.     
-
-
 
 
 ```bash
